@@ -19,9 +19,9 @@ import rahulShettyAcadmey.pageObjects.CartPage;
 import rahulShettyAcadmey.pageObjects.CheckOutPage;
 import rahulShettyAcadmey.pageObjects.conformationPage;
 import rahulShettyAcadmey.pageObjects.productCatlog;
-import rahulshettyacademy.TestComponents.BaseTest;
+import rahulshettyacademy.TestComponents.BaseTest_Old;
 
-public class ErrorValidationTest extends BaseTest{
+public class ErrorValidationTest extends BaseTest_Old{
 
 	//@Test
 	public void loginErrorValidation() throws IOException, InterruptedException

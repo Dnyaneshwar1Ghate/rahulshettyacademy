@@ -23,9 +23,9 @@ import rahulShettyAcadmey.pageObjects.CheckOutPage;
 import rahulShettyAcadmey.pageObjects.conformationPage;
 import rahulShettyAcadmey.pageObjects.landingPage;
 import rahulShettyAcadmey.pageObjects.productCatlog;
-import rahulshettyacademy.TestComponents.BaseTest;
+import rahulshettyacademy.TestComponents.BaseTest_Old;
 
-public class SubmitOrderTest extends BaseTest{
+public class SubmitOrderTest extends BaseTest_Old{
 
 	@Test
 	public void submitOrder() throws IOException, InterruptedException

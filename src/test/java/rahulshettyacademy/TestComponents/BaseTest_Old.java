@@ -15,7 +15,7 @@ import org.testng.annotations.BeforeMethod;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import rahulShettyAcadmey.pageObjects.landingPage;
 
-public class BaseTest {
+public class BaseTest_Old {
 
 	public WebDriver driver;
 	public landingPage landingPage;
