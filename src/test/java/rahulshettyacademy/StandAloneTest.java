@@ -54,7 +54,7 @@ public class StandAloneTest {
 
 		String Messge = conformMessgae.verfyConformationPage();
 		Assert.assertTrue(Messge.equalsIgnoreCase("Thankyou for the order."));
-
+		System.out.println("product added done");
 		driver.quit();
 
 	}
