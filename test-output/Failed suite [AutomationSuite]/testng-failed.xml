@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Failed suite [Failed suite [AutomationSuite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="RegisterTest(failed)(failed)">
+    <classes>
+      <class name="Tutorialsninja.Register.TC_RF_001">
+        <methods>
+          <include name="setUp"/>
+          <include name="registerWithFields"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Tutorialsninja.Register.TC_RF_001 -->
+    </classes>
+  </test> <!-- RegisterTest(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [AutomationSuite]] -->
