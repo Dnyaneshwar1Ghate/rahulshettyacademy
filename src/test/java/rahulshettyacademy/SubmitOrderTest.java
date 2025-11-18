@@ -50,6 +50,7 @@ public class SubmitOrderTest extends BaseTest{
 				
 		String Messge = conformMessgae.verfyConformationPage();
 		Assert.assertTrue(Messge.equalsIgnoreCase("Thankyou for the order."));
+		System.out.println(Messge);
 
 		
 
