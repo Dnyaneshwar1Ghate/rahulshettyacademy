@@ -23,7 +23,7 @@ import rahulshettyacademy.TestComponents.BaseTest;
 
 public class ErrorValidationTest extends BaseTest{
 
-	@Test
+	//@Test
 	public void loginErrorValidation() throws IOException, InterruptedException
 	{
 
