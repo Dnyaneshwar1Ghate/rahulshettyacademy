@@ -21,10 +21,10 @@ public class BaseClass {
 	    @BeforeClass
 	    public void setup() {
 
-	        // Detect Jenkins environment
+	        
 	        boolean isJenkins = System.getenv("JENKINS_HOME") != null;
 
-	        // Setup ChromeDriver using WebDriverManager
+	       
 	        WebDriverManager.chromedriver().setup();
 
 	        ChromeOptions options = new ChromeOptions();
